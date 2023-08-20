@@ -12,101 +12,99 @@
     </head>
     <body>
         <!-- NAVBAR STARTS -->
-
-        <nav class="navbar navbar-expand-lg bg-color-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="logo" src="../img/logododo.png" alt="Logo del Dodencio" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active navbar-text" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comissions </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="comissionsPrices.html">Prices</a></li>
-                                <li><a class="dropdown-item" href="comissionsHow.html">Recent Work</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-text" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-text" href="aboutme.html">About me</a>
-                        </li>
-                    </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-color-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="logo" src="../img/logododo.png" alt="Logo del Dodencio" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active navbar-text" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbar-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comissions </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="comissionsPrices.html">Prices</a></li>
+                                    <li><a class="dropdown-item" href="comissionsHow.html">Recent Work</a></li>
+                                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-text" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-text" href="aboutme.html">About me</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-        <!-- NAVBAR ENDS -->
+            </nav>
+        </header>
 
         <!-- pricing STARTS -->
+        <main class="main-bg-prices">
+            <section class="pricing">
+                <div class="card-wrapper">
+                    <!-- card header -->
+                    <div class="card-header">
+                        <img src="../img/sketch1.png" alt="Sample sketch image" />
+                        <h3>Sketch</h3>
+                    </div>
+                    <!-- card detail -->
+                    <div class="card-detail">
+                        <p><span class="fas fa-check check"></span> <b> 15 usd </b>Chibi</p>
+                        <p><span class="fas fa-check check"></span> <b> 7 usd </b>Headshot</p>
+                        <p><span class="fas fa-check check"></span> <b> 17 usd </b>Half-body</p>
+                        <p><span class="fas fa-check check"></span> <b> 20 usd </b>Full body</p>
+                    </div>
+                    <!-- card price -->
+                    <div class="card-price">
+                        <p><sup>$ </sup>20<sub>/Full</sub></p>
+                    </div>
+                    <!-- card button -->
+                    <button class="card-button">I want it</button>
+                </div>
 
-        <section class="pricing">
-            <div class="card-wrapper">
-                <!-- card header -->
-                <div class="card-header">
-                    <img src="../img/sketch1.png" alt="Sample sketch image" />
-                    <h3>Sketch</h3>
+                <div class="card-wrapper">
+                    <div class="card-header">
+                        <img src="../img/sketch2.png" alt="Sample lineart image" />
+                        <h3>Lineart</h3>
+                    </div>
+                    <div class="card-detail">
+                        <p><span class="fas fa-check check"></span> <b> 15 usd </b>Chibi</p>
+                        <p><span class="fas fa-check check"></span> <b> 10 usd </b>Headshot</p>
+                        <p><span class="fas fa-check check"></span> <b> 15 usd </b>Half-body</p>
+                        <p><span class="fas fa-check check"></span> <b> 20 usd </b>Full body</p>
+                    </div>
+                    <div class="card-price">
+                        <p><sup>$ </sup>20<sub>/Full</sub></p>
+                    </div>
+                    <button class="card-button">I Want it</button>
                 </div>
-                <!-- card detail -->
-                <div class="card-detail">
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Chibi</p>
-                    <p><span class="fas fa-check check"></span> <b>7 usd </b>Headshot</p>
-                    <p><span class="fas fa-check check"></span> <b>17 usd </b>Half-body</p>
-                    <p><span class="fas fa-check check"></span> <b>20 usd </b>Full color</p>
-                </div>
-                <!-- card price -->
-                <div class="card-price">
-                    <p><sup>$ </sup>20<sub>/Full</sub></p>
-                </div>
-                <!-- card button -->
-                <button class="card-button">I want it</button>
-            </div>
 
-            <div class="card-wrapper">
-                <div class="card-header">
-                    <img src="../img/sketch2.png" alt="Sample lineart image" />
-                    <h3>Lineart</h3>
+                <div class="card-wrapper">
+                    <div class="card-header">
+                        <img src="../img/sketch3.png" alt="Sample lineart image" />
+                        <h3>Full Color</h3>
+                    </div>
+                    <div class="card-detail">
+                        <p><span class="fas fa-check check"></span> <b> 15 usd </b>Chibi</p>
+                        <p><span class="fas fa-check check"></span> <b> 15 usd </b>Headshot</p>
+                        <p><span class="fas fa-check check"></span> <b> 25 usd </b>Half-body</p>
+                        <p><span class="fas fa-check check"></span> <b> 30 usd </b>Full body</p>
+                    </div>
+                    <div class="card-price">
+                        <p><sup>$ </sup>30<sub>/Full</sub></p>
+                    </div>
+                    <button class="card-button">I Want it</button>
                 </div>
-                <div class="card-detail">
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Chibi</p>
-                    <p><span class="fas fa-check check"></span> <b>10 usd </b>Headshot</p>
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Half-body</p>
-                    <p><span class="fas fa-check check"></span> <b>20 usd </b>Full color</p>
-                </div>
-                <div class="card-price">
-                    <p><sup>$ </sup>20<sub>/Full</sub></p>
-                </div>
-                <button class="card-button">I Want it</button>
-            </div>
-
-            <div class="card-wrapper">
-                <div class="card-header">
-                    <img src="../img/sketch3.png" alt="Sample lineart image" />
-                    <h3>Lineart</h3>
-                </div>
-                <div class="card-detail">
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Chibi</p>
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Headshot</p>
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Half-body</p>
-                    <p><span class="fas fa-check check"></span> <b>15 usd </b>Full color</p>
-                </div>
-                <div class="card-price">
-                    <p><sup>$ </sup>20<sub>/Full</sub></p>
-                </div>
-                <button class="card-button">I Want it</button>
-            </div>
-        </section>
-
-        <!-- FOOTER -->
+            </section>
+        </main>
 
         <footer class="footerr">
             <div class="footerContainer">

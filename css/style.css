@@ -17,13 +17,18 @@
     color: white;
 }
 
-/* .bg-color-navbar{
+.bg-color-navbar {
     background-color: black;
-} */
+}
 
-/* .navbar-text{
+.navbar-text {
     color: white;
-} */
+    font-weight: 500;
+    font-weight: bold;
+}
+a .nav-link .active .navbar-text {
+    color: white;
+}
 
 /* SECTION ABOUT */
 
@@ -43,7 +48,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 body {
     background: #f1fbff;
@@ -402,6 +407,7 @@ main {
     width: 40%;
     padding: 40px;
     background: transparent;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.6), 0 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .contactForm h2 {
@@ -456,7 +462,7 @@ textarea:valid ~ label {
     transform: translateY(-20px);
 }
 
-button {
+.button-form {
     width: 100px;
     background: rgb(250, 90, 90);
     color: white;
@@ -464,8 +470,18 @@ button {
     cursor: pointer;
     padding: 10px;
     font-size: 20px;
-    border-radius: 10%;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all 50ms ease-in;
 }
+
+.button-form:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
+
 @media (max-width: 990px) {
     .bg-form {
         padding: 50px;
@@ -479,4 +495,107 @@ button {
     .contactForm {
         width: auto;
     }
+}
+
+/* -----------CARD PRCIESpage---------- */
+
+.main-bg-prices {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    background-image: linear-gradient(45deg, rgb(197, 59, 59) 0%, rgb(67, 9, 9) 100%);
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.card-header {
+    margin: 1rem;
+    text-align: center;
+}
+.card-wrapper:hover .card-header h3 {
+    transform: scale(1.1);
+    color: rgb(212, 66, 66);
+    letter-spacing: 2px;
+}
+
+.card-header img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-detail {
+    width: 100%;
+}
+
+.card-detail p {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.check {
+    color: rgba(214, 48, 109, 0.528);
+}
+
+.card-detail p:hover {
+    background-color: #d5d5d5;
+}
+
+.card-price {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.card-price p {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card-price p sup,
+.card-price p sub {
+    font-size: 1rem;
+}
+
+.card-button {
+    padding: 0.6rem 3rem;
+    border: 2px solid red;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+}
+
+.card-button:hover {
+    border: 2px solid orange;
+    background-color: transparent;
+    color: orange;
+    font-weight: 600;
 }

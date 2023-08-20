@@ -11,96 +11,97 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <!-- NAVBAR STARTS -->
-
-        <nav class="navbar navbar-expand-lg bg-color-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="logo" src="../img/logododo.png" alt="Logo del Dodencio" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active navbar-text" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comissions </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="comissionsPrices.html">Prices</a></li>
-                                <li><a class="dropdown-item" href="comissionsHow.html">Recent Work</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-text" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-text" href="aboutme.html">About me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- NAVBAR ENDS -->
-
-        <!-- SECTION Starts -->
-        <section class="bg-form contact1">
-            <div class="contentt">
-                <h2>How can you contact me?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum consequuntur iusto vitae cumque? Corporis nesciunt ipsa, at ratione, molestiae doloremque consequatur atque saepe quis expedita amet, dignissimos veritatis. Error!</p>
-            </div>
-            <div class="container1">
-                <div class="contactInfo">
-                    <div class="box1">
-                        <div class="icon1"><i class="fa-solid fa-location-dot"></i></div>
-                        <div class="text1">
-                            <h3 class="location">Location</h3>
-                            <p>Montevideo, Uruguay</p>
-                        </div>
-                    </div>
-                    <div class="box1">
-                        <div class="icon1"><i class="fa-brands fa-whatsapp"></i></div>
-                        <div class="text1">
-                            <h3 class="wpp">WhatsApp</h3>
-                            <p>+598 95 608 167</p>
-                        </div>
-                    </div>
-                    <div class="box1">
-                        <div class="icon1"><i class="fa-solid fa-envelope"></i></div>
-                        <div class="text1">
-                            <h3 class="email">Email</h3>
-                            <p>postisama22@gmail.com</p>
-                        </div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-color-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="logo" src="../img/logododo.png" alt="Logo del Dodencio" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active navbar-text" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbar-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Comissions </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="comissionsPrices.html">Prices</a></li>
+                                    <li><a class="dropdown-item" href="comissionsHow.html">Recent Work</a></li>
+                                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-text" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-text" href="aboutme.html">About me</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="contactForm">
-                    <form>
-                        <h2>Send a Message</h2>
-                        <div class="inputBox">
-                            <input type="text" id="name" required="required" />
-                            <label for="name">Your Name</label>
-                        </div>
-                        <div class="inputBox">
-                            <input type="text" id="number" required="required" />
-                            <label for="number">Phone Number</label>
-                        </div>
-                        <div class="inputBox">
-                            <input type="text" id="email" required="required" />
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="inputBox">
-                            <textarea id="message" rows="8"></textarea>
-                            <label for="message">Your request</label>
-                        </div>
-                        <button type="submit">Submit</button>
-                    </form>
+            </nav>
+        </header>
+
+        <main>
+            <!-- FORM SECTION -->
+            <section class="bg-form contact1">
+                <div class="contentt">
+                    <h2>How can you contact me?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum consequuntur iusto vitae cumque? Corporis nesciunt ipsa, at ratione, molestiae doloremque consequatur atque saepe quis expedita amet, dignissimos veritatis. Error!</p>
                 </div>
-            </div>
-        </section>
+                <div class="container1">
+                    <div class="contactInfo">
+                        <div class="box1">
+                            <div class="icon1"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text1">
+                                <h3 class="location">Location</h3>
+                                <p>Montevideo, Uruguay</p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="icon1"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="text1">
+                                <h3 class="wpp">WhatsApp</h3>
+                                <p>+598 95 608 167</p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="icon1"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text1">
+                                <h3 class="email">Email</h3>
+                                <p>postisama22@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactForm">
+                        <form>
+                            <h2>Send a Message</h2>
+                            <div class="inputBox">
+                                <input type="text" id="name" required="required" />
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" id="number" required="required" />
+                                <label for="number">Phone Number</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" id="email" required="required" />
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="inputBox">
+                                <textarea id="message" rows="8"></textarea>
+                                <label for="message">Your request</label>
+                            </div>
+                            <button type="submit" class="button-form">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- FORM SECTION -->
+        </main>
 
         <!-- FOOTER Starts-->
 
