@@ -47,7 +47,7 @@
 }
 body {
     background: #f1fbff;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     min-height: 100vh;
 
     display: flex;
@@ -186,11 +186,6 @@ main {
     padding: 30px;
 }
 
-.txt-edit {
-    color: black;
-    text-align: center;
-}
-
 .cart-col {
     background-color: black;
 }
@@ -293,10 +288,10 @@ main {
 .bg-image {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     background-image: url(../img/starsbg.png);
-    position: relative;
+    /* position: relative; */
 }
 
 .card-bg {
@@ -313,4 +308,175 @@ main {
 }
 .card-comission {
     display: grid;
+}
+
+/* ------------Formulario----------- */
+
+.bg-form {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/redlandscape.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.85;
+}
+
+.contentt {
+    max-width: 800px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg-form .contentt h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    font-weight: bold;
+}
+
+.bg-form .contentt p {
+    font-weight: 300;
+    color: white;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.container1 .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 .contactInfo .box1 {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container1 .contactInfo .box1 .icon1 {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.text1 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.text1 h3 {
+    font-weight: 500;
+    font-weight: bold;
+}
+.location {
+    color: red;
+}
+.wpp {
+    color: green;
+}
+.email {
+    color: rgb(0, 183, 255);
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: transparent;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: transparent;
+    resize: none;
+    color: #fff;
+}
+
+.contactForm .inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.contactForm .inputBox input:focus ~ label,
+.contactForm .inputBox input:valid ~ label {
+    color: transparent;
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+textarea:focus ~ label,
+textarea:valid ~ label {
+    color: transparent;
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+
+button {
+    width: 100px;
+    background: rgb(250, 90, 90);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+}
+@media (max-width: 990px) {
+    .bg-form {
+        padding: 50px;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+    .container1 .contactInfo {
+        margin-bottom: 40px;
+    }
+    .contactForm {
+        width: auto;
+    }
 }
