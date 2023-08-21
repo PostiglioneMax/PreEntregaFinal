@@ -3,10 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.logo {
-    width: 85px;
-}
-
+/* CARROUSEL */
 .imgCarousel {
     height: 850px;
     width: auto;
@@ -14,19 +11,6 @@
 }
 
 .slide1Text {
-    color: white;
-}
-
-.bg-color-navbar {
-    background-color: black;
-}
-
-.navbar-text {
-    color: white;
-    font-weight: 500;
-    font-weight: bold;
-}
-a .nav-link .active .navbar-text {
     color: white;
 }
 
@@ -52,8 +36,6 @@ main {
 .tit-txt-color {
     color: #f1fbff;
 }
-/* zaz{
-	position: relative; */
 
 .carousel-item {
     height: 100vh;
@@ -607,4 +589,52 @@ textarea:valid ~ label {
 
 .gallery img {
     width: 100%;
+    height: auto;
+}
+
+/* --------- NAVBAR ------- */
+
+.bg-color-navbar {
+    background-color: black;
+}
+.navbar-text {
+    color: white;
+    font-weight: 600;
+    font-weight: bold;
+}
+.logo {
+    width: 85px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.fuentes {
+    font-size: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    font-weight: bold;
+    color: white;
+}
+
+.drop-edit {
+    padding: auto;
+    margin: 0px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    background-color: white;
+}
+.drop-txt {
+    font-weight: 500;
+}
+
+/* Navbar nuevo */
+
+.logo1 {
+    width: 85px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
 }
