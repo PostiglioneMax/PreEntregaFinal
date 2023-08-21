@@ -9,11 +9,9 @@
     width: auto;
     object-fit: cover;
 }
-
 .slide1Text {
     color: white;
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 * {
     font-family: "Poppins", sans-serif;
@@ -32,11 +30,9 @@ html {
 main {
     position: relative;
 }
-
 .tit-txt-color {
     color: #f1fbff;
 }
-
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -67,37 +63,6 @@ main {
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
-/* .navbar .getstarted {
-	background: #106eea;
-	margin-left: 30px;
-	border-radius: 4px;
-	font-weight: 400;
-	color: #fff;
-	text-decoration: none;
-	padding: .5rem 1rem;
-	line-height: 2.3;
-}
-.navbar-nav a {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 500;
-}
-.navbar-light .navbar-brand {
-	color: #000;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-.w-100 {
-	height: 100vh;
-}
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
-} */
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 370px;
@@ -141,11 +106,9 @@ main {
 .img-twitter {
     width: 60px;
 }
-
 .greenSpace {
     padding: 30px;
 }
-
 .cart-col {
     background-color: black;
 }
@@ -153,13 +116,10 @@ main {
     padding: 20px;
     margin-bottom: 5px;
 }
-
 .height-fix {
     height: 470px;
 }
-
 /* Footer */
-
 .footerr {
     background-color: black;
     margin-top: auto;
@@ -174,7 +134,6 @@ main {
     display: flex;
     justify-content: center;
 }
-
 .socialIcons a {
     text-decoration: none;
     padding: 10px;
@@ -182,13 +141,11 @@ main {
     margin: 10px;
     border-radius: 50%;
 }
-
 .socialIcons a i {
     font-size: 2em;
     color: black;
     opacity: 0.9;
 }
-
 .footerNav {
     margin: 30px 0px;
 }
@@ -229,22 +186,20 @@ main {
         margin: 10px;
     }
 }
-
 .margg {
     padding-bottom: 70px;
     margin-bottom: 300px;
 }
-
 .margg2 {
     padding-bottom: 130px;
     margin-bottom: auto;
 }
-
 .margg3 {
     padding-bottom: 700px;
     margin-bottom: 14px;
 }
-
+/* INDEX SECTION */
+/* OLD */
 .bg-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,21 +208,70 @@ main {
     background-image: url(../img/starsbg.png);
     /* position: relative; */
 }
-
 .card-bg {
     background-color: #000;
 }
-
 .background-img {
     background-image: url(../img/starsbg.png);
 }
-
 .center {
     justify-self: center;
     align-self: center;
 }
-/* ------------Formulario----------- */
+/* NEWWWW */
+.counter-index {
+    padding: 5px;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+.cont-index {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+.box-index {
+    flex: 1;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+}
+.box-index:first-child {
+    margin-left: 0;
+    background-color: red;
+}
+.second-child {
+    background-color: blue;
+}
 
+.box-index:last-child {
+    margin-left: 0;
+    background-color: rgb(149, 36, 36);
+}
+@media screen and (max-width: 980px) {
+    .cont-index .box-index {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .cont-index .box-index:last-child {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .cont-index .box-index:nth-last-child(2) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 680px) {
+    .cont-index .box-index {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+}
+
+/* ------------Formulario----------- */
 .bg-form {
     width: 100%;
     min-height: 100vh;
@@ -281,25 +285,21 @@ main {
     flex-direction: column;
     opacity: 0.85;
 }
-
 .contentt {
     max-width: 800px;
     text-align: center;
     font-weight: bold;
 }
-
 .bg-form .contentt h2 {
     font-size: 36px;
     font-weight: 600;
     color: white;
     font-weight: bold;
 }
-
 .bg-form .contentt p {
     font-weight: 300;
     color: white;
 }
-
 .container1 {
     width: 100%;
     display: flex;
@@ -307,19 +307,16 @@ main {
     align-items: center;
     margin-top: 35px;
 }
-
 .container1 .contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-
 .container1 .contactInfo .box1 {
     position: relative;
     padding: 20px 0;
     display: flex;
 }
-
 .container1 .contactInfo .box1 .icon1 {
     min-width: 60px;
     height: 60px;
@@ -330,7 +327,6 @@ main {
     border-radius: 50%;
     font-size: 22px;
 }
-
 .text1 {
     display: flex;
     margin-left: 20px;
@@ -339,7 +335,6 @@ main {
     flex-direction: column;
     font-weight: 300;
 }
-
 .text1 h3 {
     font-weight: 500;
     font-weight: bold;
@@ -353,14 +348,12 @@ main {
 .email {
     color: rgb(0, 183, 255);
 }
-
 .contactForm {
     width: 40%;
     padding: 40px;
     background: transparent;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.6), 0 5px 5px rgba(0, 0, 0, 0.6);
 }
-
 .contactForm h2 {
     font-size: 30px;
     color: #fff;
@@ -368,13 +361,11 @@ main {
     text-align: center;
     font-weight: bold;
 }
-
 .contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
-
 .contactForm .inputBox input,
 textarea {
     width: 100%;
@@ -388,7 +379,6 @@ textarea {
     resize: none;
     color: #fff;
 }
-
 .contactForm .inputBox label {
     position: absolute;
     left: 0;
@@ -399,7 +389,6 @@ textarea {
     transition: 0.5s;
     color: #fff;
 }
-
 .contactForm .inputBox input:focus ~ label,
 .contactForm .inputBox input:valid ~ label {
     color: transparent;
@@ -412,7 +401,6 @@ textarea:valid ~ label {
     font-size: 14px;
     transform: translateY(-20px);
 }
-
 .button-form {
     width: 100px;
     background: rgb(250, 90, 90);
@@ -425,14 +413,12 @@ textarea:valid ~ label {
     border-radius: 30px;
     transition: all 50ms ease-in;
 }
-
 .button-form:hover {
     border: 2px solid white;
     background-color: transparent;
     color: white;
     font-weight: 500;
 }
-
 @media (max-width: 990px) {
     .bg-form {
         padding: 50px;
@@ -447,9 +433,7 @@ textarea:valid ~ label {
         width: auto;
     }
 }
-
 /* -----------CARD PRCIESpage---------- */
-
 .main-bg-prices {
     width: 100%;
     height: auto;
@@ -458,7 +442,6 @@ textarea:valid ~ label {
     background-size: cover;
     /* background-image: linear-gradient(45deg, rgb(197, 59, 59) 0%, rgb(67, 9, 9) 100%); */
 }
-
 .pricing {
     display: flex;
     justify-content: center;
@@ -466,7 +449,6 @@ textarea:valid ~ label {
     width: 100%;
     padding: 2rem;
 }
-
 .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -481,11 +463,9 @@ textarea:valid ~ label {
     margin: 1rem;
     transition: all 0.2s ease-in;
 }
-
 .card-wrapper:hover {
     transform: scale(1.1);
 }
-
 .card-header {
     margin: 1rem;
     text-align: center;
@@ -495,47 +475,38 @@ textarea:valid ~ label {
     color: rgb(212, 66, 66);
     letter-spacing: 2px;
 }
-
 .card-header img {
     width: 200px;
     display: block;
     margin: 0 auto;
 }
-
 .card-detail {
     width: 100%;
 }
-
 .card-detail p {
     padding: 0.6rem 1.5rem;
     font-size: 0.8rem;
     border-bottom: 1px solid #d5d5d5;
 }
-
 .check {
     color: rgba(214, 48, 109, 0.528);
 }
-
 .card-detail p:hover {
     background-color: #d5d5d5;
 }
-
 .card-price {
     display: flex;
     align-items: flex-start;
     margin: 1rem;
 }
-
 .card-price p {
     font-size: 3rem;
     font-weight: 600;
 }
-
 .card-price p sup,
 .card-price p sub {
     font-size: 1rem;
 }
-
 .card-button {
     padding: 0.6rem 3rem;
     border: 2px solid red;
@@ -545,23 +516,19 @@ textarea:valid ~ label {
     cursor: pointer;
     transition: all 50ms ease-in;
 }
-
 .card-button:hover {
     border: 2px solid orange;
     background-color: transparent;
     color: orange;
     font-weight: 600;
 }
-
 /* ------ GALLERY page -------- */
-
 /* SECTION ABOUT */
 .bg-section {
     background: url(../img/wallpaperred.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .about-text {
     margin: auto;
     padding: 10px;
@@ -576,7 +543,6 @@ textarea:valid ~ label {
     font-weight: bold;
     font-weight: 700;
 }
-
 .section-padding {
     padding: 40px 0;
 }
@@ -588,9 +554,7 @@ textarea:valid ~ label {
     width: 600px;
     height: 400px;
 }
-
 /* -- SECTION GALLERY -- */
-
 .container-gallery {
     width: 100%;
     height: auto;
@@ -599,20 +563,16 @@ textarea:valid ~ label {
     justify-content: center;
     padding: 50px 8%;
 }
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
 }
-
 .gallery img {
     width: 100%;
     height: auto;
 }
-
 /* --------- NAVBAR ------- */
-
 .bg-color-navbar {
     background-color: black;
 }
@@ -628,18 +588,14 @@ textarea:valid ~ label {
     font-weight: bold;
     color: white;
 }
-
 /* Navbar nuevo */
-
 .logo1 {
     width: 85px;
     background-color: white;
     border: 1px solid black;
     border-radius: 50px;
 }
-
 /* ----- ABOUT ME PAGE ------ */
-
 .correction {
     margin: 0px;
     padding: 0px;
@@ -649,7 +605,6 @@ textarea:valid ~ label {
     line-height: 1.5;
     letter-spacing: 1px;
 }
-
 .wrapping {
     min-height: 100vh;
     width: 100%;
@@ -658,18 +613,15 @@ textarea:valid ~ label {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .introdu {
     padding: 30px 100px;
 }
-
 article h1 {
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
-
 article h1::after {
     content: "";
     height: 5px;
