@@ -554,11 +554,18 @@ textarea:valid ~ label {
 /* ------ GALLERY page -------- */
 
 /* SECTION ABOUT */
+.bg-section {
+    background: url(../img/wallpaperred.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .about-text {
     margin: auto;
-    padding: 30px;
-    color: black;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-weight: bold;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-align: center;
 }
@@ -567,7 +574,12 @@ textarea:valid ~ label {
     padding: 40px 0;
 }
 .about-img {
-    padding: auto;
+    padding: 0;
+    margin: 0;
+}
+.rules {
+    width: 600px;
+    height: 400px;
 }
 
 /* -- SECTION GALLERY -- */
@@ -602,32 +614,12 @@ textarea:valid ~ label {
     font-weight: 600;
     font-weight: bold;
 }
-.logo {
-    width: 85px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 50px;
-}
-
 .fuentes {
     font-size: 1rem;
     padding-left: 2rem;
     font-weight: 500;
     font-weight: bold;
     color: white;
-}
-
-.drop-edit {
-    padding: auto;
-    margin: 0px;
-    font-weight: 500;
-    font-weight: bold;
-    color: #000;
-    text-align: center;
-    background-color: white;
-}
-.drop-txt {
-    font-weight: 500;
 }
 
 /* Navbar nuevo */
@@ -637,4 +629,69 @@ textarea:valid ~ label {
     background-color: white;
     border: 1px solid black;
     border-radius: 50px;
+}
+
+/* ----- ABOUT ME PAGE ------ */
+
+.correction {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.wrapping {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/option4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introdu {
+    padding: 30px 100px;
+}
+
+article h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+article h1::after {
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+article img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+article h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-weight: bold;
+}
+article p {
+    font-size: 17px;
 }
