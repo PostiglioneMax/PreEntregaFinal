@@ -143,6 +143,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    padding: 20px;
     .contactInfo {
         width: 50%;
         display: flex;
@@ -167,6 +168,7 @@ main {
 .text1 {
     display: flex;
     margin-left: 20px;
+    margin-right: auto;
     font-size: 16px;
     color: $color_5;
     flex-direction: column;
@@ -653,6 +655,11 @@ article {
         flex-direction: column;
         .contactInfo {
             margin-bottom: 40px;
+        }
+        .box1 {
+            margin-right: 20px;
+            display: grid;
+            grid-template-columns: auto;
         }
     }
     .contactForm {
