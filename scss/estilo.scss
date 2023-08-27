@@ -509,6 +509,8 @@ article {
         font-family: $font-family_3;
         font-size: 20px;
         margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 .banner {
@@ -562,6 +564,11 @@ article {
     font-size: 14px;
     text-transform: uppercase;
 }
+@media (max-width: 900px) {
+    .introdu {
+        padding: 5px;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 370px;
@@ -606,6 +613,7 @@ article {
     .footerNav {
         ul {
             flex-direction: column;
+            padding: 0px;
             li {
                 width: 100%;
                 text-align: center;

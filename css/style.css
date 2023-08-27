@@ -19,6 +19,7 @@
   padding: 10px;
   background-color: white;
   margin: 10px;
+  margin-left: 25px;
   border-radius: 50%;
 }
 .socialIcons a i {
@@ -637,6 +638,8 @@ article .dodo-wiki {
   font-family: sans-serif;
   font-size: 20px;
   margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .banner {
@@ -698,6 +701,11 @@ article .dodo-wiki {
   text-transform: uppercase;
 }
 
+@media (max-width: 900px) {
+  .introdu {
+    padding: 5px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel-caption {
     bottom: 370px;
@@ -738,6 +746,7 @@ article .dodo-wiki {
 @media (max-width: 700px) {
   .footerNav ul {
     flex-direction: column;
+    padding: 0px;
   }
   .footerNav ul li {
     width: 100%;
